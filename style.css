@@ -12,6 +12,8 @@ body {
     min-height: 100vh;
     /* background: #091921; */
     background-image: url(img/wallpaperflare.com_wallpaper\ \(5\).jpg);
+    background-repeat: no-repeat;
+    background: cover;
 }
 
 body:after {
@@ -94,14 +96,13 @@ body:after {
 }
 
 .container .calculator span:hover {
-    transition: 0s;
+    transition: .1s;
     background: rgba(255, 255, 255, 0.05)
 }
 
 .container .calculator span:active {
-    background: #14ff47;
-    color: #192f00;
-    font-size: 24px;
+    background: rgba(255, 255, 255, 0.2);   
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -111,7 +112,7 @@ body:after {
 } 
 
 .container .calculator .clear:hover {
-    transition: 0s;
+    transition: .1s;
     background: rgba(255, 255, 255, 0.1)
 } 
 
@@ -126,20 +127,18 @@ body:after {
 }
 
 .container .calculator .equal:hover {
-    transition: 0s;
+    transition: .1s;
     background: rgba(255, 255, 255, 0.1);
 }
 
 .container .calculator .equal:active {
-    background: #14ff47;
-    color: #192f00;
-    font-size: 24px;
+    background: rgba(255, 255, 255, 0.2);   
+    font-size: 22px;
     font-weight: 500;
 }
 
 .container .calculator .clear:active {
-    background: #14ff47;
-    color: #192f00;
-    font-size: 24px;
+    background: rgba(255, 255, 255, 0.2);   
+    font-size: 22px;
     font-weight: 500;
 }
