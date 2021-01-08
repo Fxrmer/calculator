@@ -119,6 +119,8 @@ body:after {
 .container .calculator .plus {
     grid-row: span 2;
     height: 150px;
+    font-size: 30px;
+    font-weight: 350;
 }
 
 .equal {
