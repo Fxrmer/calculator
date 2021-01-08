@@ -144,3 +144,67 @@ body:after {
     font-size: 22px;
     font-weight: 500;
 }
+
+.home {
+    display: inline-block;
+    padding: 20px 20px;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    font-size: 25px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.home:hover {
+    transition: .1s;
+    background: rgba(255, 255, 255, 0.05)
+}
+
+.glass {
+    display: inline-block;
+    padding: 20px 20px;
+    color: white;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.glass:hover {
+    transition: .1s;
+    background: rgba(255, 255, 255, 0.05)
+}
+
+a {
+    text-decoration: none;
+}
+
+/* h2 {
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    text-align: right;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 350;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: 400;
+}  */
